@@ -1,22 +1,21 @@
 {
-  "name": "joaosimon",
-  "version": "1.0.0",
-  "description": "tarefa joédio",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joaovitorsimon/git-teste.git"
-  },
-  "keywords": [
-    "123"
-  ],
-  "author": "Joao Simon",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/joaovitorsimon/git-teste/issues"
-  },
-  "homepage": "https://github.com/joaovitorsimon/git-teste#readme"
-}
+ "name": "git-teste",
+ "version": "1.0.0",
+ "description": "tarefa joédio",
+ "main": "index.html",
+ "scripts": {
+ "start": "npm run lite",
+ "test": "echo \"Error: no test specified\" && exit 1",
+ "lite": "lite-server"
+ },
+ "repository": {
+ "type": "git",
+ "url": "git+https://github.com/joaovitorsimon/git-teste.git"
+ },
+ "author": "Joao Simon",
+ "license": "ISC",
+ "homepage": "https://github.com/joaovitorsimon/git-teste#readme",
+ "devDependencies": {
+ "lite-server": "^2.2.2"
+ }
+} 
